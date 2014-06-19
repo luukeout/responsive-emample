@@ -1,12 +1,9 @@
 body {
-	width: 100%;
 	margin: 0;
-	padding:0;
+	/*padding:0;*/
 }
 .container {
-	display: inline-block;
 	width: 100%;
-	/*padding-bottom: 40px;*/
 	height: 1000px;
 	background-color: beige;
 }
@@ -15,14 +12,17 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
-	font-family: 'Droid Serif', serif;
-	font-size: 4.4em;
+	
 	background-color: grey;
 }
 
-.video {
+#responsive-headline {
+	font-family: 'Droid Serif', serif;
+	font-size: 4.4em;
+}
+
+.video-box {
 	margin: 0 auto;
 	width: 80%;
-	height: 20px;
 	border: 1px solid grey;
 }

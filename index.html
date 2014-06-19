@@ -2,32 +2,39 @@
 <html>
 <head>
 	<title>Reponsive Experiment</title>
-	<script src="jquery.js"></script>
+	
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic' rel='stylesheet' type='text/css'>
+	
+
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="./modernizr.custom.23003.js"></script>
+	<script src="modernizr.custom.23003.js"></script>
 	
 </head>
 <body>
 
 <div class="container">
+	
 	<div class="header">
-		<h1 id="responsive_headline">This is some text</h1>
+		<div id="responsive-headline">This is some text</div>
 		<script src="jquery.fittext.js"></script>
-		<script>jQuery("#responsive_headline").fitText();</script>
+		<script>jQuery("#responsive-headline").fitText();</script>
 	</div>
-	<div class="video">
+	
+	<div class="video-box">
   			<iframe src="http://player.vimeo.com/video/97971369" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		<script src="./jquery.fitvids.js"></script>
+		
+		<script src="jquery.fitvids.js"></script>
+		
 		<script>
   			$(document).ready(function(){
     		// Target your .container, .wrapper, .post, etc.
-    		$(".video").fitVids();
+    		$(".video-box").fitVids();
   			});
 		</script>
 
 	</div>
+	
 </div>
 
 	
